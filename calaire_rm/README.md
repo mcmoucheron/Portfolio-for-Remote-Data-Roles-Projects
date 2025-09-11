@@ -107,14 +107,14 @@
 ### Link to Notebook / Enlace al Notebook
 
 **[EN]** You can find the full analysis notebook directly at:
-[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
+[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
 
 **[ES]** Puedes encontrar el notebook completo del análisis directamente en:
-[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
+[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
+
 ---
 
 ### Project Brief / Enunciado del Proyecto
 
-* **[EN]** The full project brief from which this analysis was developed is available in the `Enunciado del ejercicio.pdf` file in this repository.
-* **[ES]** El enunciado completo del proyecto a partir del cual se desarrolló este análisis está disponible en el archivo `Enunciado del ejercicio.pdf` en este repositorio.
-
+**[EN]** The full project brief from which this analysis was developed is available in the `Enunciado del ejercicio.pdf` file in this repository.
+**[ES]** El enunciado completo del proyecto a partir del cual se desarrolló este análisis está disponible en el archivo `Enunciado del ejercicio.pdf` en este repositorio.
