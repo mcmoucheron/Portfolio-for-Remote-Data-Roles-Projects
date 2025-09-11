@@ -6,9 +6,17 @@
 
 ### Project Overview / Resumen del Proyecto
 
-**[EN]** This project analyzes the evolution of fine particulate matter (PM2.5) pollution in five communes of Santiago, Chile, from 2018 to 2024. The objective is to build a reproducible data workflow that extracts, processes, and models air quality data to investigate environmental inequality and the impact of the COVID-19 pandemic.
+**[EN]** This project, titled "Monthly Evolution of Air Quality in Santiago (2018-2024) with an Environmental Inequality Focus", analyzes the evolution of fine particulate matter (PM2.5) pollution in five communes of Santiago, Chile. The main objective is to build a reproducible data workflow using Google Colab and PostgreSQL to analyze and visualize environmental inequality and the impact of the COVID-19 pandemic. The analysis addresses key questions, including:
 
-**[ES]** Este proyecto analiza la evolución de la contaminación por material particulado fino (PM2.5) en cinco comunas de Santiago, Chile, entre 2018 y 2024. El objetivo es construir un flujo de datos reproducible que extrae, procesa y modela datos de calidad del aire para investigar la desigualdad ambiental y el impacto de la pandemia de COVID-19.
+* **KPI 1:** Monthly average of PM2.5 per commune.
+* **KPI 2:** Percentage of critical days per commune and month.
+* **KPI 3:** Comparison by temporal blocks: pre-COVID (2019), COVID (2020-2021), and post-COVID (2022-2024).
+
+**[ES]** Este proyecto, titulado "Evolución mensual de la calidad del aire en Santiago (2018-2024) con enfoque de desigualdad ambiental", analiza la evolución de la contaminación por material particulado fino (PM2.5) en cinco comunas de Santiago, Chile. El objetivo principal es construir un flujo de trabajo de datos reproducible usando Google Colab y PostgreSQL para analizar y visualizar la desigualdad ambiental y el impacto de la pandemia de COVID-19. El análisis responde a preguntas clave, que incluyen:
+
+* **KPI 1:** Promedio mensual de PM2.5 por comuna.
+* **KPI 2:** % de días críticos por comuna y mes.
+* **KPI 3:** Comparación por bloques temporales: pre-COVID (2019), COVID (2020-2021) y post-COVID (2022-2024).
 
 ---
 
@@ -90,7 +98,14 @@
 ### Link to Notebook / Enlace al Notebook
 
 **[EN]** You can find the full analysis notebook directly at:
-[https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calidad-aire-santiago/notebooks/analisis_calidad_aire_santiago.ipynb](https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calidad-aire-santiago/notebooks/analisis_calidad_aire_santiago.ipynb)
+[https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_santiago.ipynb](https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_santiago.ipynb)
 
 **[ES]** Puedes encontrar el notebook completo del análisis directamente en:
-[https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calidad-aire-santiago/notebooks/analisis_calidad_aire_santiago.ipynb](https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calidad-aire-santiago/notebooks/analisis_calidad_aire_santiago.ipynb)
+[https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_santiago.ipynb](https://github.com/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_santiago.ipynb)
+
+---
+
+### Project Brief / Enunciado del Proyecto
+
+* **[EN]** The full project brief from which this analysis was developed is available in the `Enunciado del ejercicio.pdf` file in this repository.
+* **[ES]** El enunciado completo del proyecto a partir del cual se desarrolló este análisis está disponible en el archivo `Enunciado del ejercicio.pdf` en este repositorio.
