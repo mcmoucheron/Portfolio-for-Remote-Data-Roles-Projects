@@ -107,10 +107,10 @@
 ### Link to Notebook / Enlace al Notebook
 
 **[EN]** You can find the full analysis notebook directly at:
-[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
+[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
 
 **[ES]** Puedes encontrar el notebook completo del análisis directamente en:
-[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
+[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
 ---
 
 ### Project Brief / Enunciado del Proyecto
