@@ -49,7 +49,7 @@ Hola, soy Colette— ingeniero ambiental en transición a la analítica de datos
 
 Un análisis de la calidad del aire en Santiago, Chile, utilizando Python, SQL y un modelo de regresión estadística para analizar la desigualdad ambiental y el verdadero impacto de la pandemia de COVID-19, controlando por factores meteorológicos. Este proyecto incluye un pipeline ETL completo, validación de datos basada en la ley ambiental chilena y un informe final con visualizaciones.
 
-* **Explora el análisis completo en el [Jupyter Notebook](calidad-aire-santiago/notebooks/analisis_calidad_aire_santiago.ipynb)**
+* **Explora el análisis completo en el [Jupyter Notebook](calaire_rm/notebooks)**
 * **Ver todos los archivos del proyecto en la [Carpeta del Proyecto](calaire_rm/)**
 
 ---
