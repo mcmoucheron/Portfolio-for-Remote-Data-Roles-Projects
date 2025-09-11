@@ -76,7 +76,7 @@
 **[EN]** To reproduce this analysis, please follow these steps:
 
 1.  **Open in Colab:** Click the "Open in Colab" badge at the top of this README to launch the main notebook in Google Colab.
-2.  **Get the data:** This analysis requires PM2.5 data for five stations and temperature, wind speed, and wind direction data for four of the five stations (excluding Las Condes). You'll need to download the CSV files for each station from the official SINCA website.
+2.  **Get the data:** This analysis requires data from January 1, 2018, to December 31, 2024. You'll need PM2.5 data for five stations and temperature, wind speed, and wind direction data for four of the five stations (excluding Las Condes). You'll need to download the CSV files for each station from the official SINCA website.
     * Go to the SINCA website: [https://sinca.mma.gob.cl/index.php/region/index/id/V#](https://sinca.mma.gob.cl/index.php/region/index/id/V#).
     * Select the following stations: **Las Condes, Parque O'Higgins, Puente Alto, Pudahuel, and Quilicura**.
     * Download the data for PM2.5, temperature, wind speed (`VV`), and wind direction (`DV`).
@@ -92,7 +92,7 @@
 **[ES]** Para reproducir este análisis, por favor sigue estos pasos:
 
 1.  **Abrir en Colab:** Haz clic en el ícono "Open in Colab" en la parte superior de este README para abrir el notebook principal en Google Colab.
-2.  **Obtener los datos:** El análisis requiere datos de PM2.5 para las cinco estaciones, y datos de temperatura, velocidad y dirección del viento para **cuatro de las cinco estaciones** (excluyendo Las Condes). Deberás descargar los archivos CSV para cada estación desde el sitio web oficial de SINCA.
+2.  **Obtener los datos:** El análisis requiere datos desde el 1 de enero de 2018 hasta el 31 de diciembre de 2024. Necesitarás datos de PM2.5 para las cinco estaciones, y datos de temperatura, velocidad y dirección del viento para **cuatro de las cinco estaciones** (excluyendo Las Condes). Deberás descargar los archivos CSV para cada estación desde el sitio web oficial de SINCA.
     * Ve al sitio web de SINCA: [https://sinca.mma.gob.cl/index.php/region/index/id/V#](https://sinca.mma.gob.cl/index.php/region/index/id/V#).
     * Selecciona las estaciones: **Las Condes, Parque O'Higgins, Puente Alto, Pudahuel y Quilicura**.
     * Descarga los datos de las variables PM2.5, temperatura, velocidad del viento (`VV`) y dirección del viento (`DV`).
