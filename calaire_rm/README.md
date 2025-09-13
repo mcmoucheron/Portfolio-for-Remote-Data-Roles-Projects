@@ -76,7 +76,7 @@
 **[EN]** To reproduce this analysis, please follow these steps:
 
 1.  **Open in Colab:** Click the "Open in Colab" badge at the top of this README to launch the main notebook in Google Colab.
-2.  **Get the data:** This analysis requires data from January 1, 2018, to December 31, 2024. You'll need PM2.5 data for five stations and temperature, wind speed, and wind direction data for four of the five stations (excluding Las Condes). You'll need to download the CSV files for each station from the official SINCA website.
+2.  **Get the data:** This analysis requires hourly data from January 1, 2018, to December 31, 2024. You'll need PM2.5 data for five stations and temperature, wind speed, and wind direction data for four of the five stations (excluding Las Condes). You'll need to download the CSV files for each station from the official SINCA website.
     * Go to the SINCA website: [https://sinca.mma.gob.cl/index.php/region/index/id/V#](https://sinca.mma.gob.cl/index.php/region/index/id/V#).
     * Select the following stations: **Las Condes, Parque O'Higgins, Puente Alto, Pudahuel, and Quilicura**.
     * Download the data for PM2.5, temperature, wind speed (`VV`), and wind direction (`DV`).
