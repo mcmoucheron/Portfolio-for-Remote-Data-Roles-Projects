@@ -92,7 +92,7 @@
 **[ES]** Para reproducir este análisis, por favor sigue estos pasos:
 
 1.  **Abrir en Colab:** Haz clic en el ícono "Open in Colab" en la parte superior de este README para abrir el notebook principal en Google Colab.
-2.  **Obtener los datos:** El análisis requiere datos desde el 1 de enero de 2018 hasta el 31 de diciembre de 2024. Necesitarás datos de PM2.5 para las cinco estaciones, y datos de temperatura, velocidad y dirección del viento para **cuatro de las cinco estaciones** (excluyendo Las Condes). Deberás descargar los archivos CSV para cada estación desde el sitio web oficial de SINCA.
+2.  **Obtener los datos:** El análisis requiere datos horarios desde el 1 de enero de 2018 hasta el 31 de diciembre de 2024. Necesitarás datos de PM2.5 para las cinco estaciones, y datos de temperatura, velocidad y dirección del viento para **cuatro de las cinco estaciones** (excluyendo Las Condes). Deberás descargar los archivos CSV para cada estación desde el sitio web oficial de SINCA.
     * Ve al sitio web de SINCA: [https://sinca.mma.gob.cl/index.php/region/index/id/V#](https://sinca.mma.gob.cl/index.php/region/index/id/V#).
     * Selecciona las estaciones: **Las Condes, Parque O'Higgins, Puente Alto, Pudahuel y Quilicura**.
     * Descarga los datos de las variables PM2.5, temperatura, velocidad del viento (`VV`) y dirección del viento (`DV`).
