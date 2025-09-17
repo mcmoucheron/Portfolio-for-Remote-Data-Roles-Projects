@@ -1,4 +1,4 @@
-Comuna,Month,num_compliant_days,total_days_in_month,percentage_compliant
+comuna,Month,num_compliant_days,total_days_in_month,percentage_compliant
 Las Condes,2018-11,22,30,73.33333333333333
 Las Condes,2021-03,23,31,74.19354838709677
 Pudahuel,2018-05,12,31,38.70967741935484

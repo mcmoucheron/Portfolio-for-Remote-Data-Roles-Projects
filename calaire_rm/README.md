@@ -118,3 +118,21 @@
 
 **[EN]** The full project brief from which this analysis was developed is available in the `Enunciado del ejercicio.pdf` file in this repository.
 **[ES]** El enunciado completo del proyecto a partir del cual se desarrolló este análisis está disponible en el archivo `Enunciado del ejercicio.pdf` en este repositorio.
+
+---
+
+## Project Documentation / Documentación del Proyecto
+
+### **[EN]**
+For a more in-depth look at the project's development and context, please see the following documents:
+
+*   **[Project Journey & Debugging Log](./project_journey_summary.md):** A detailed document chronicling the iterative development process, including the diagnosis and resolution of critical data integrity issues.
+*   **[Original Task Description](./initial_task_description.md):** The original project brief and requirements.
+*   **[License](./LICENSE):** This project is shared under the MIT License.
+
+### **[ES]**
+Para una mirada más profunda al desarrollo y contexto del proyecto, por favor revise los siguientes documentos:
+
+*   **[Bitácora del Proyecto y Depuración](./project_journey_summary.md):** Un documento detallado que narra el proceso de desarrollo iterativo, incluyendo el diagnóstico y la resolución de problemas críticos de integridad de datos.
+*   **[Enunciado Original de la Tarea](./initial_task_description.md):** El brief y los requisitos originales del proyecto.
+*   **[Licencia](./LICENSE):** Este proyecto se comparte bajo la Licencia MIT.
