@@ -6,133 +6,58 @@
 
 ### Project Overview / Resumen del Proyecto
 
-**[EN]** This project, titled "Monthly Evolution of Air Quality in Santiago (2018-2024) with an Environmental Inequality Focus", analyzes the evolution of fine particulate matter (PM2.5) pollution in five communes of Santiago, Chile. The main objective is to build a reproducible data workflow using Google Colab and PostgreSQL to analyze and visualize environmental inequality and the impact of the COVID-19 pandemic. The analysis addresses key questions, including:
+**[EN]** This project analyzes the evolution of fine particulate matter (PM2.5) pollution in five key communes of Santiago, Chile, from 2018 to 2024. The core objective is to investigate two critical questions: the extent of environmental inequality across the city and the true impact of the COVID-19 pandemic on air quality, once meteorological factors are controlled for.
 
-* **KPI 1:** Monthly average of PM2.5 per commune.
-* **KPI 2:** Percentage of critical days per commune and month.
-* **KPI 3:** Comparison by temporal blocks: pre-COVID (2019), COVID (2020-2021), and post-COVID (2022-2024).
-
-**[ES]** Este proyecto, titulado "Evolución mensual de la calidad del aire en Santiago (2018-2024) con enfoque de desigualdad ambiental", analiza la evolución de la contaminación por material particulado fino (PM2.5) en cinco comunas de Santiago, Chile. El objetivo principal es construir un flujo de trabajo de datos reproducible usando Google Colab y PostgreSQL para analizar y visualizar la desigualdad ambiental y el impacto de la pandemia de COVID-19. El análisis responde a preguntas clave, que incluyen:
-
-* **KPI 1:** Promedio mensual de PM2.5 por comuna.
-* **KPI 2:** % de días críticos por comuna y mes.
-* **KPI 3:** Comparación por bloques temporales: pre-COVID (2019), COVID (2020-2021) y post-COVID (2022-2024).
+**[ES]** Este proyecto analiza la evolución de la contaminación por material particulado fino (PM2.5) en cinco comunas clave de Santiago, Chile, entre 2018 y 2024. El objetivo central es investigar dos preguntas críticas: la magnitud de la desigualdad ambiental en la ciudad y el verdadero impacto de la pandemia de COVID-19 en la calidad del aire, una vez que se controlan los factores meteorológicos.
 
 ---
 
-### Key Objectives / Objetivos Clave
+### Key Features / Características Clave
 
 **[EN]**
-* **ETL Pipeline:** Load raw data from CSV files, clean it, and load it into a PostgreSQL (Neon) database.
-* **Compliance Analysis:** Validate the data according to Chilean environmental regulations to ensure statistical robustness.
-* **Statistical Analysis:** Utilize a linear regression model to isolate the effect of the pandemic from meteorological variables.
-* **Visualization:** Communicate findings through time series and bar charts.
+*   **Reproducible ETL Pipeline:** A robust Python script loads raw data from the `datos_SINCA/` folder, cleans it, and loads it into a PostgreSQL (Neon) database, creating a reliable single source of truth.
+*   **Legally Compliant Validation:** The analysis is strictly grounded in Chilean environmental law, using the standards from **D.S. N° 12/2011 (MMA)** and **D.S. N° 61/2008 (MINSAL)** to validate daily data.
+*   **Advanced Statistical Modeling:** A Multiple Linear Regression (OLS) model is used to scientifically isolate the effect of the pandemic from meteorological variables, providing quantifiable and defensible insights.
+*   **Clear Visual Communication:** The findings are presented through a series of clear visualizations, including time series plots, heatmaps, and a final regression coefficient plot.
 
 **[ES]**
-* **Pipeline ETL:** Cargar datos brutos desde archivos CSV, limpiarlos y cargarlos en una base de datos PostgreSQL (Neon).
-* **Análisis de Cumplimiento:** Validar los datos de acuerdo con las regulaciones ambientales chilenas para asegurar la robustez estadística.
-* **Análisis Estadístico:** Utilizar un modelo de regresión lineal para aislar el efecto de la pandemia de las variables meteorológicas.
-* **Visualización:** Comunicar los hallazgos a través de series de tiempo y gráficos de barras.
-
----
-
-### Project Structure / Estructura del Proyecto
-
-**[EN]** The project is organized as follows:
-
-* `notebooks/`: Contains the main Jupyter Notebook for the analysis.
-    * `analisis_calidad_aire_santiago.ipynb`: The primary notebook to run the analysis.
-* `data/`: Stores the raw data files used for the analysis.
-    * `datos_SINCA/`: The raw data folder.
-
-**[ES]** El proyecto se organiza de la siguiente manera:
-
-* `notebooks/`: Contiene el Jupyter Notebook principal para el análisis.
-    * `analisis_calidad_aire_santiago.ipynb`: El notebook principal para ejecutar el análisis.
-* `data/`: Almacena los archivos de datos brutos utilizados para el análisis.
-    * `datos_SINCA/`: La carpeta de datos brutos.
+*   **Pipeline ETL Reproducible:** Un script robusto de Python carga los datos crudos desde la carpeta `datos_SINCA/`, los limpia y los carga en una base de datos PostgreSQL (Neon), creando una fuente única y fiable de verdad.
+*   **Validación Conforme a la Normativa:** El análisis se basa estrictamente en la legislación ambiental chilena, utilizando los estándares de los **D.S. N° 12/2011 (MMA)** y **D.S. N° 61/2008 (MINSAL)** para validar los datos diarios.
+*   **Modelado Estadístico Avanzado:** Se utiliza un modelo de Regresión Lineal Múltiple (OLS) para aislar científicamente el efecto de la pandemia de las variables meteorológicas, proporcionando insights cuantificables y defendibles.
+*   **Comunicación Visual Clara:** Los hallazgos se presentan a través de una serie de visualizaciones claras, incluyendo series de tiempo, mapas de calor y un gráfico final de coeficientes de regresión.
 
 ---
 
 ### Tech Stack / Stack Tecnológico
-
-* **Language / Lenguaje:** Python
-* **Libraries / Librerías:** Pandas, SQLAlchemy, Matplotlib, Seaborn, Statsmodels
-* **Database / Base de Datos:** PostgreSQL (Neon)
-* **Environment / Entorno:** Google Colab
-
----
-
-### Key Findings / Hallazgos Principales
-
-**[EN]** The analysis concluded that, even after controlling for meteorological factors, the pandemic period (2020-2021) had a statistically significant reduction in PM2.5 levels. Additionally, a severe environmental inequality was quantified, with communes like Pudahuel and Quilicura showing systematically higher pollution levels than Las Condes.
-
-**[ES]** El análisis concluyó que, incluso después de controlar por factores meteorológicos, el periodo de la pandemia (2020-2021) tuvo una reducción estadísticamente significativa en los niveles de PM2.5. Adicionalmente, se cuantificó una severa desigualdad ambiental, con comunas como Pudahuel y Quilicura mostrando niveles de contaminación sistemáticamente más altos que Las Condes.
+*   **Language / Lenguaje:** Python
+*   **Libraries / Librerías:** Pandas, SQLAlchemy, Matplotlib, Seaborn, Statsmodels, PyProj
+*   **Database / Base de Datos:** PostgreSQL (cloud-native with Neon)
+*   **Environment / Entorno:** Google Colab
 
 ---
 
 ### How to Run This Project / Cómo Ejecutar Este Proyecto
 
-**[EN]** To reproduce this analysis, please follow these steps:
+**[EN]** This project is designed to be fully reproducible.
 
-1.  **Open in Colab:** Click the "Open in Colab" badge at the top of this README to launch the main notebook in Google Colab.
-2.  **Get the data:** This analysis requires hourly data from January 1, 2018, to December 31, 2024. You'll need PM2.5 data for five stations and temperature, wind speed, and wind direction data for four of the five stations (excluding Las Condes). You'll need to download the CSV files for each station from the official SINCA website.
-    * Go to the SINCA website: [https://sinca.mma.gob.cl/index.php/region/index/id/V#](https://sinca.mma.gob.cl/index.php/region/index/id/V#).
-    * Select the following stations: **Las Condes, Parque O'Higgins, Puente Alto, Pudahuel, and Quilicura**.
-    * Download the data for PM2.5, temperature, wind speed (`VV`), and wind direction (`DV`).
-    * Make sure to save each file with the correct naming format (e.g., `las_condes.csv`, `t_las_condes.csv`, `vv_las_condes.csv`, etc.).
-3.  **Upload the data to Colab:** To make the notebook work, you must upload the downloaded files.
-    * In the Colab file explorer (folder icon on the left), click the "Upload" button (page icon with an up arrow).
-    * Upload all the CSV files you downloaded. The code will handle creating the `datos_SINCA` folder and moving the files to that location.
-4.  **Update Connection String:** In the first code block, replace the placeholder for the `neon_connection_string` with your own PostgreSQL database connection string.
-5.  **Run the Notebook:** Run the notebook cells in order from top to bottom. The first cell will handle the entire ETL process, and the subsequent cells will perform the analysis and generate the visualizations.
+1.  **Open in Colab:** Click the "Open in Colab" badge at the top of this README. This will launch the main notebook in a Google Colab session with this repository already cloned.
+2.  **Set Up a Database:** You will need a PostgreSQL database. The code is configured to connect using a Neon connection string stored as a Colab Secret named `NEON_DB_URL`.
+3.  **Run the Notebook:** Execute the notebook cells in order. The first block handles the entire ETL process, and the subsequent blocks perform the analysis and generate the visualizations.
+
+**[ES]** Este proyecto está diseñado para ser completamente reproducible.
+
+1.  **Abrir en Colab:** Haz clic en el ícono "Open in Colab" en la parte superior de este README. Esto abrirá el notebook principal en una sesión de Google Colab con este repositorio ya clonado.
+2.  **Configurar una Base de Datos:** Necesitarás una base de datos PostgreSQL. El código está configurado para conectarse usando una cadena de conexión de Neon almacenada como un Secreto de Colab llamado `NEON_DB_URL`.
+3.  **Ejecutar el Notebook:** Ejecuta las celdas del notebook en orden. El primer bloque se encarga de todo el proceso ETL, y las celdas siguientes realizan el análisis y generan las visualizaciones.
 
 ---
 
-**[ES]** Para reproducir este análisis, por favor sigue estos pasos:
+### Legal and Data Sources / Fuentes de Datos y Legales
 
-1.  **Abrir en Colab:** Haz clic en el ícono "Open in Colab" en la parte superior de este README para abrir el notebook principal en Google Colab.
-2.  **Obtener los datos:** El análisis requiere datos horarios desde el 1 de enero de 2018 hasta el 31 de diciembre de 2024. Necesitarás datos de PM2.5 para las cinco estaciones, y datos de temperatura, velocidad y dirección del viento para **cuatro de las cinco estaciones** (excluyendo Las Condes). Deberás descargar los archivos CSV para cada estación desde el sitio web oficial de SINCA.
-    * Ve al sitio web de SINCA: [https://sinca.mma.gob.cl/index.php/region/index/id/V#](https://sinca.mma.gob.cl/index.php/region/index/id/V#).
-    * Selecciona las estaciones: **Las Condes, Parque O'Higgins, Puente Alto, Pudahuel y Quilicura**.
-    * Descarga los datos de las variables PM2.5, temperatura, velocidad del viento (`VV`) y dirección del viento (`DV`).
-    * **Guarda los archivos con el formato correcto**. Por ejemplo: `las_condes.csv`, `t_las_condes.csv`, `vv_las_condes.csv`, etc.
-3.  **Subir los datos a Colab:** Para que el notebook funcione, debes subir los archivos descargados.
-    * En el explorador de archivos de Colab (ícono de carpeta a la izquierda), haz clic en el botón "Subir" (ícono de página con una flecha hacia arriba).
-    * Sube todos los archivos CSV que descargaste. El código se encargará de crear la carpeta `datos_SINCA` y de mover los archivos a esa ubicación.
-4.  **Actualizar la Cadena de Conexión:** En el primer bloque de código, reemplaza el marcador de posición de `neon_connection_string` con tu propia cadena de conexión a la base de datos PostgreSQL.
-5.  **Ejecutar el Notebook:** Ejecuta las celdas del notebook en orden, de arriba hacia abajo. La primera celda se encargará de todo el proceso ETL, y las celdas siguientes realizarán el análisis y generarán las visualizaciones.
----
+**[EN]** The analysis adheres to the following Chilean environmental regulations:
+*   **D.S. N° 12/2011 (MMA):** [Primary Air Quality Standard for PM2.5](https://www.bcn.cl/leychile/navegar?idNorma=1025202)
+*   **D.S. N° 61/2008 (MINSAL):** [Regulation for Air Pollutant Measurement Stations](https://www.bcn.cl/leychile/navegar?idNorma=281728)
 
-### Link to Notebook / Enlace al Notebook
-
-**[EN]** You can find the full analysis notebook directly at:
-[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
-
-**[ES]** Puedes encontrar el notebook completo del análisis directamente en:
-[https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb](https://github.com/mcmoucheron/Portfolio-for-Remote-Data-Roles-Projects/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
-
----
-
-### Project Brief / Enunciado del Proyecto
-
-**[EN]** The full project brief from which this analysis was developed is available in the `Enunciado del ejercicio.pdf` file in this repository.
-**[ES]** El enunciado completo del proyecto a partir del cual se desarrolló este análisis está disponible en el archivo `Enunciado del ejercicio.pdf` en este repositorio.
-
----
-
-## Project Documentation / Documentación del Proyecto
-
-### **[EN]**
-For a more in-depth look at the project's development and context, please see the following documents:
-
-*   **[Project Journey & Debugging Log](./project_journey_summary.md):** A detailed document chronicling the iterative development process, including the diagnosis and resolution of critical data integrity issues.
-*   **[Original Task Description](./initial_task_description.md):** The original project brief and requirements.
-*   **[License](./LICENSE):** This project is shared under the MIT License.
-
-### **[ES]**
-Para una mirada más profunda al desarrollo y contexto del proyecto, por favor revise los siguientes documentos:
-
-*   **[Bitácora del Proyecto y Depuración](./project_journey_summary.md):** Un documento detallado que narra el proceso de desarrollo iterativo, incluyendo el diagnóstico y la resolución de problemas críticos de integridad de datos.
-*   **[Enunciado Original de la Tarea](./initial_task_description.md):** El brief y los requisitos originales del proyecto.
-*   **[Licencia](./LICENSE):** Este proyecto se comparte bajo la Licencia MIT.
+**[ES]** El análisis se adhiere a las siguientes normativas ambientales chilenas:
+*   **D.S. N° 12/2011 (MMA):** [Establece Norma Primaria de Calidad Ambiental para MP2,5](https://www.bcn.cl/leychile/navegar?idNorma=1025202)
+*   **D.S. N° 61/2008 (MINSAL):** [Aprueba Reglamento de Estaciones de Medición de Contaminantes Atmosféricos](https://www.bcn.cl/leychile/navegar?idNorma=281728)
