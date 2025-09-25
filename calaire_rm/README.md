@@ -1,6 +1,6 @@
 # Air Quality Analysis in Santiago (2018-2024) / Análisis de Calidad del Aire en Santiago (2018-2024)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calidad-aire-santiago/notebooks/analisis_calaire_rm.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mcmoucheron/GitHub-Portfolio-for-Remote-Data-Roles/blob/main/calaire_rm/notebooks/analisis_calidad_aire_aistudio.ipynb)
 
 ---
 
